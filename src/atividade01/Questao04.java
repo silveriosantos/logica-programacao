@@ -10,23 +10,19 @@ public class Questao04 {
         String name = ler.nextLine();
 
         System.out.println("Digite o Valor da hora = ");        
-        float hour = ler.nextFloat();
+        int hour = ler.nextInt();
 
         System.out.println("Digite quantas horas foi trabalhada = ");
-        float Hwork = ler.nextFloat();
+        int Hwork = ler.nextInt();
+        ler.close();
 
-        float resultHours = hour * Hwork;
+        int resultHours = hour * Hwork;
         
         System.out.println("Calculo sobre o trabalhador");
         System.out.println("O trabalhador = "+name);
-        System.out.println("O trabalhador recebera pela horas trabalhadas = "+resultHours);
+        System.out.println("O "+name +"recebera pela horas trabalhadas = "+resultHours);
 
-        ler.close();
-
-    
-
-
-
+        
     }
     
 }
