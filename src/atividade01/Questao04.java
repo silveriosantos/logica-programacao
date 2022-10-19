@@ -14,7 +14,7 @@ public class Questao04 {
 
         System.out.println("Digite quantas horas foi trabalhada = ");
         int Hwork = ler.nextInt();
-        ler.close();
+        // ler.close();
 
         int resultHours = hour * Hwork;
         

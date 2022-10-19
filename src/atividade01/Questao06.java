@@ -16,7 +16,7 @@ public class Questao06 {
 
         System.out.println("O valor a ser dividido por pessoa sera de = "+resultado);
 
-        ler.close();
+        // ler.close();
     }
     
 }

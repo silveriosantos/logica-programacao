@@ -10,7 +10,7 @@ public class Questao03 {
 
         System.out.println("Olá "+name);
 
-        ler.close();
+        // ler.close();
         
     }
     

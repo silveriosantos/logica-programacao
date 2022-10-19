@@ -15,7 +15,7 @@ public class Questao05 {
         System.out.println("O valor taxa garcom = " +taxa);
         System.out.println("O valor total a ser pago sera de = " +total);
 
-        ler.close();
+        // ler.close();
 
 
         

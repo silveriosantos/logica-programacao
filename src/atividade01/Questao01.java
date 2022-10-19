@@ -27,7 +27,7 @@ public class Questao01 {
             System.out.println("Aluno Reprovado");
         }       
 
-            ler.close();            
+            // ler.close();            
         }
         
                      

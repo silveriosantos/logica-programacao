@@ -16,7 +16,7 @@ public class Questao02 {
         System.out.println("Numero antecessor = "+antecessor);    
         System.out.println("Numero sucessor = "+sucessor);
     
-        ler.close();
+        // ler.close();
 
 
     }

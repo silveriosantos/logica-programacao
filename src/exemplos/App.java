@@ -11,7 +11,7 @@ public class App {
         int myNum2 = ler.nextInt();
         int r = myNum1 + myNum2;
         System.out.println("O resultado da soma =" + r);
-        ler.close();
+        // ler.close();
 
 
     }
