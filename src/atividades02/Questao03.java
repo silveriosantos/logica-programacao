@@ -8,13 +8,13 @@ public class Questao03 {
         int num ;
         System.out.println("Digite sua idade");
         num = ler.nextInt();
-
-        if (num >=16) {
-            System.out.println("Você pode Votar");            
+        
+        if (num < 16) {
+            System.out.println("Você já pode Votar");            
         } else {
-            System.out.println("Você não pode Votar");
-            
+            System.out.println("Você não pode Votar");            
         }
+        ler.close();
     }
 }
 

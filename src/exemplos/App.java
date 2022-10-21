@@ -9,6 +9,7 @@ public class App {
         int myNum1 = ler.nextInt();
         System.out.println("Digite outro número");
         int myNum2 = ler.nextInt();
+        ler.close();
         int r = myNum1 + myNum2;
         System.out.println("O resultado da soma =" + r);
         // ler.close();

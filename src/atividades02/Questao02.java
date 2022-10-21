@@ -17,7 +17,7 @@ public class Questao02 {
 
         if ((num1 > num2) && (num1 > num3)) {
             System.out.println(" O número " + num1 + " é maior");
-        } else if ((num2 > num1) && (num2 > num3)) {
+        } else if ((num2 >= num1) && (num2 >= num1)) {
             System.out.println(" o numero " + num2 + " é maior");
         } else {
             System.out.println(" o numero " + num3 + " é maior ");
@@ -25,9 +25,9 @@ public class Questao02 {
 
         // COMPARAÇÃO NÚMERO MENOR
 
-        if ((num1 < num2) && (num1 < num3)) {
+        if ((num1 <= num2) && (num1 <= num3)) {
             System.out.println(" O número " + num1 + " é menor");
-        } else if ((num2 < num1) && (num2 < num3)) {
+        } else if ((num2 <= num3) && (num2 < num1)) {
             System.out.println(" o numero " + num2 + " é menor");
         } else {
             System.out.println(" o numero " + num3 + " é menor");

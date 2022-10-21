@@ -11,6 +11,7 @@ public class Questao06 {
         double altura;
         System.out.println("Digite sua altura!");
         altura = ler.nextDouble();
+        ler.close();
         double imc = peso / (altura * altura);
         System.out.println(imc);
 

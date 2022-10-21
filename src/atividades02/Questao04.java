@@ -8,9 +8,10 @@ public class Questao04 {
         int num ;
         System.out.println("Digite sua idade");
         num = ler.nextInt();
+        ler.close();
 
-        if (num >=18) {
-            System.out.println("Você pode Dirigir ");            
+        if (num < 18) {
+            System.out.println("Você já pode Dirigir ");            
         } else {
             System.out.println("Você não pode Dirigir , var para a auto escola! ");
             
