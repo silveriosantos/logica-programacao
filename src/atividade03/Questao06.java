@@ -33,7 +33,7 @@ public class Questao06 {
         int mediat = media = soma / 5;
         System.out.println("Maior valor = " + maior);
         System.out.println("Menor valor = " + menor);
-        System.out.println("A soma entre os 3 valores e :" + soma);
+        System.out.println("A soma entre os 5 valores e :" + soma);
         System.out.println("Valor media :" + mediat);
         ler.close();
     }
