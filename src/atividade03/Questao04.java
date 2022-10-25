@@ -2,8 +2,6 @@ package atividade03;
 
 import java.util.Scanner;
 
-import javax.swing.text.AbstractDocument.Content;
-
 public class Questao04 {
     public static void main(String[] args) {
         Scanner ler = new Scanner(System.in);
@@ -22,10 +20,10 @@ public class Questao04 {
                 System.out.println("Parabéns , você acertou a palavra");
             } else {
                 System.out.println("Está não e a palavra , tente novamente !");
-
             }
 
         } while (contador > 0);
+        ler.close();
 
     }
 

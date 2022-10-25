@@ -17,6 +17,7 @@ public class Questao03 {
                 num1++;
                 System.out.println("Os números entre eles são : "+num1);
             } while (num1 < (num2 - 1));
+            ler.close();
         }
     
     }

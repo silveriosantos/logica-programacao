@@ -15,7 +15,7 @@ public class Questao01 {
             System.out.println(numeroDigitado + " X " + contador + " = " + contador * numeroDigitado);
             contador++;
 
-        }
+        }input.close();
 
     }
 }
