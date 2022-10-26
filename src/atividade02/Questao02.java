@@ -31,7 +31,7 @@ public class Questao02 {
             System.out.println(" o numero " + num2 + " é menor");
         } else {
             System.out.println(" o numero " + num3 + " é menor");
-        }
+        }ler.close();
 
     }
 
