@@ -15,7 +15,7 @@ public class Questao05 {
             System.out.println("Pode votar e pode dirigir ");
          }else {
             System.out.println("Não pode nem votar e nem dirigir ");
-         }
+         }ler.close();
     }
 }
 

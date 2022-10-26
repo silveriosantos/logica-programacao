@@ -6,7 +6,6 @@ public class Questao06 {
     public static void main(String[] args) {
 
         Scanner ler = new Scanner(System.in);
-        int media = 0;
         int soma = 0;
         int valor[] = new int[5];
 
@@ -30,7 +29,7 @@ public class Questao06 {
                 menor = valor[i];
             }
         }
-        int mediat = media = soma / 5;
+        int mediat = soma / 5;
         System.out.println("Maior valor = " + maior);
         System.out.println("Menor valor = " + menor);
         System.out.println("A soma entre os 5 valores e :" + soma);
