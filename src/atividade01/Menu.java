@@ -21,7 +21,7 @@ public class Menu {
             switch (escolha) {
                 case "a":
                     System.out.println("a)-- Questão 01 --");
-                    Questao02.main(args);
+                    Questao01.main(args);
                     break;
                 case "b":
                     System.out.println("a)-- Questão 02 --");
